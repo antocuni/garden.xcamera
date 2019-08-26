@@ -4,7 +4,7 @@ from kivy.logger import Logger
 
 Camera = autoclass('android.hardware.Camera')
 AndroidActivityInfo = autoclass('android.content.pm.ActivityInfo')
-AndroidPythonActivity = autoclass('org.renpy.android.PythonActivity')
+AndroidPythonActivity = autoclass('org.kivy.android.PythonActivity')
 
 class ShutterCallback(PythonJavaClass):
     __javainterfaces__ = ('android.hardware.Camera$ShutterCallback', )
